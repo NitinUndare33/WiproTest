@@ -17,6 +17,7 @@ struct HttpUtility {
                 if error == nil {
                     do {
                         let resultData = Data(String(decoding: data!, as: UTF8.self).utf8)
+                        print("**** result data: \(String(decoding: data!, as: UTF8.self))")
                         let result = try JSONDecoder().decode(T.self, from: resultData)
                         completion(result, nil)
                     } catch let error {

@@ -14,6 +14,10 @@ struct DTOUserResponse: Codable {
         case userTitle = "title"
         case userInfo = "rows"
     }
+    //Drop the object where each property is null
+    var filteredInfo: [DTOUserInfo]? {
+        self.userInfo?.filter({ $0.userInfoTitle != nil || $0.userInfoImage != nil || $0.userInfoDescription != nil })
+    }
 }
 
 struct DTOUserInfo: Codable {

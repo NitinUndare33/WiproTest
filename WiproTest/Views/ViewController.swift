@@ -19,17 +19,20 @@ class ViewController: UIViewController {
         viewModel?.getUserDetails()
     }
 }
-extension ViewController: UITableViewDataSource {
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel?.userData.userInfo?.count ?? 0
+        return viewModel?.userData.filteredInfo?.count ?? 0
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? UserDataCell
-        let data = viewModel?.userData.userInfo?[indexPath.row]
+        let data = viewModel?.userData.filteredInfo?[indexPath.row]
         cell?.userTitle.text = data?.userInfoTitle ?? ""
         cell?.userSubtitle.text = data?.userInfoDescription ?? ""
         cell?.userImage.loadImage(urlString: data?.userInfoImage ?? "")
         return cell!
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        UITableView.automaticDimension
     }
 }
 //
