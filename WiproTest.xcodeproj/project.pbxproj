@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30993A50283BFFB9000211CE /* Mirror+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30993A4F283BFFB9000211CE /* Mirror+Extensions.swift */; };
 		3A5E38E6282E146D00D4F6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E38E5282E146D00D4F6F7 /* AppDelegate.swift */; };
 		3A5E38E8282E146D00D4F6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E38E7282E146D00D4F6F7 /* SceneDelegate.swift */; };
 		3A5E38EA282E146D00D4F6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E38E9282E146D00D4F6F7 /* ViewController.swift */; };
@@ -16,6 +17,13 @@
 		3A5E38FD282E147200D4F6F7 /* WiproTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E38FC282E147200D4F6F7 /* WiproTestTests.swift */; };
 		3A5E3907282E147200D4F6F7 /* WiproTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3906282E147200D4F6F7 /* WiproTestUITests.swift */; };
 		3A5E3909282E147200D4F6F7 /* WiproTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3908282E147200D4F6F7 /* WiproTestUITestsLaunchTests.swift */; };
+		3A5E391B282E192F00D4F6F7 /* DTOUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E391A282E192F00D4F6F7 /* DTOUserResponse.swift */; };
+		3A5E391D282E1BA000D4F6F7 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E391C282E1BA000D4F6F7 /* HttpUtility.swift */; };
+		3A5E391F282E1BCA00D4F6F7 /* UtilityConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E391E282E1BCA00D4F6F7 /* UtilityConstant.swift */; };
+		3A5E3921282E1BD900D4F6F7 /* UserResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3920282E1BD900D4F6F7 /* UserResource.swift */; };
+		3A5E3924282E1F2200D4F6F7 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3923282E1F2200D4F6F7 /* CommonExtensions.swift */; };
+		3A5E3926282E21B100D4F6F7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3925282E21B100D4F6F7 /* UserViewModel.swift */; };
+		3A5E3928282E23AB00D4F6F7 /* UserDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E3927282E23AB00D4F6F7 /* UserDataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30993A4F283BFFB9000211CE /* Mirror+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mirror+Extensions.swift"; sourceTree = "<group>"; };
 		3A5E38E2282E146D00D4F6F7 /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5E38E5282E146D00D4F6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A5E38E7282E146D00D4F6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		3A5E3902282E147200D4F6F7 /* WiproTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5E3906282E147200D4F6F7 /* WiproTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestUITests.swift; sourceTree = "<group>"; };
 		3A5E3908282E147200D4F6F7 /* WiproTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A5E391A282E192F00D4F6F7 /* DTOUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTOUserResponse.swift; sourceTree = "<group>"; };
+		3A5E391C282E1BA000D4F6F7 /* HttpUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		3A5E391E282E1BCA00D4F6F7 /* UtilityConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityConstant.swift; sourceTree = "<group>"; };
+		3A5E3920282E1BD900D4F6F7 /* UserResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResource.swift; sourceTree = "<group>"; };
+		3A5E3923282E1F2200D4F6F7 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		3A5E3925282E21B100D4F6F7 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3A5E3927282E23AB00D4F6F7 /* UserDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,13 @@
 		3A5E38E4282E146D00D4F6F7 /* WiproTest */ = {
 			isa = PBXGroup;
 			children = (
+				3A5E3922282E1EF500D4F6F7 /* Extensions */,
+				3A5E3919282E18D400D4F6F7 /* Networking */,
+				3A5E3918282E18CB00D4F6F7 /* Model */,
+				3A5E3917282E18BC00D4F6F7 /* ViewModel */,
+				3A5E3915282E189B00D4F6F7 /* Views */,
 				3A5E38E5282E146D00D4F6F7 /* AppDelegate.swift */,
 				3A5E38E7282E146D00D4F6F7 /* SceneDelegate.swift */,
-				3A5E38E9282E146D00D4F6F7 /* ViewController.swift */,
 				3A5E38EB282E146D00D4F6F7 /* Main.storyboard */,
 				3A5E38EE282E147100D4F6F7 /* Assets.xcassets */,
 				3A5E38F0282E147100D4F6F7 /* LaunchScreen.storyboard */,
@@ -125,6 +145,50 @@
 				3A5E3908282E147200D4F6F7 /* WiproTestUITestsLaunchTests.swift */,
 			);
 			path = WiproTestUITests;
+			sourceTree = "<group>";
+		};
+		3A5E3915282E189B00D4F6F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E38E9282E146D00D4F6F7 /* ViewController.swift */,
+				3A5E3927282E23AB00D4F6F7 /* UserDataCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A5E3917282E18BC00D4F6F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E3925282E21B100D4F6F7 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A5E3918282E18CB00D4F6F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E391A282E192F00D4F6F7 /* DTOUserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A5E3919282E18D400D4F6F7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E391C282E1BA000D4F6F7 /* HttpUtility.swift */,
+				3A5E391E282E1BCA00D4F6F7 /* UtilityConstant.swift */,
+				3A5E3920282E1BD900D4F6F7 /* UserResource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3A5E3922282E1EF500D4F6F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E3923282E1F2200D4F6F7 /* CommonExtensions.swift */,
+				30993A4F283BFFB9000211CE /* Mirror+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5E391F282E1BCA00D4F6F7 /* UtilityConstant.swift in Sources */,
 				3A5E38EA282E146D00D4F6F7 /* ViewController.swift in Sources */,
+				3A5E3924282E1F2200D4F6F7 /* CommonExtensions.swift in Sources */,
+				3A5E391D282E1BA000D4F6F7 /* HttpUtility.swift in Sources */,
+				3A5E391B282E192F00D4F6F7 /* DTOUserResponse.swift in Sources */,
 				3A5E38E6282E146D00D4F6F7 /* AppDelegate.swift in Sources */,
+				3A5E3928282E23AB00D4F6F7 /* UserDataCell.swift in Sources */,
+				3A5E3921282E1BD900D4F6F7 /* UserResource.swift in Sources */,
+				30993A50283BFFB9000211CE /* Mirror+Extensions.swift in Sources */,
+				3A5E3926282E21B100D4F6F7 /* UserViewModel.swift in Sources */,
 				3A5E38E8282E146D00D4F6F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -494,7 +566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nitin.com.WiproTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +585,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nitin.com.WiproTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
